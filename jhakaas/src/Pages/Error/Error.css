@@ -1,0 +1,57 @@
+.btn-error {
+  background-image: linear-gradient(
+    to right,
+    #ff8008 0%,
+    #ffc837 51%,
+    #ff8008 100%
+  );
+  margin: 0 auto;
+
+  padding: 20px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 800;
+  display: block;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-error:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #008037;
+  text-decoration: none;
+}
+
+.section-error {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin-top: -40px;
+}
+.error-image {
+  width: 750px;
+  height: 550px;
+}
+
+.error-heading {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 800;
+  margin-top: -30px;
+  color: #f6f576;
+}
+
+.error-para {
+  font-size: 24px;
+  margin-top: -30px;
+  font-weight: 600;
+  color: #f6f576;
+}

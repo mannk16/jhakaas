@@ -1,0 +1,97 @@
+.Subscribe-section {
+  background-color: #008037;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 60px;
+  gap: 40px;
+}
+
+.Subscribe-desc {
+  max-width: 1200px;
+}
+
+.Subscribe-heading {
+  color: #cfff8d;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #cfff8d;
+  transform: scale(1.05);
+}
+
+.Subscribe-para {
+  color: #cfff8d;
+  font-size: 24px;
+  max-width: 500px;
+  margin-left: -10px;
+}
+
+.form-input {
+  padding: 10px;
+  padding-right: 30px;
+  min-width: 350px;
+  border: 6px solid #cfff8d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Submit-btn {
+  padding: 10px;
+  min-width: 100px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #008037;
+  border: 6px solid #cfff8d;
+}
+
+@media (max-width: 1200px) {
+  .Subscribe-desc {
+    max-width: 400px;
+  }
+  .form-input {
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 950px) {
+  .Subscribe-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Subscribe-desc {
+    max-width: 600px;
+  }
+
+  .form-input {
+    min-width: 500;
+  }
+}
+
+@media (max-width: 500px) {
+  .Subscribe-desc {
+    max-width: 350px;
+  }
+  .Subscribe-heading {
+    font-size: 36px;
+  }
+
+  .form-input {
+    min-width: 250px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,145 @@
+.product-info {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.product-lg-image {
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.product-info-img {
+  width: 550px;
+  height: 550px;
+}
+
+.prod-desc-heading {
+  color: #cfff8d;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+
+  transform: scale(1.05);
+}
+
+.cart-button {
+  background-image: linear-gradient(
+    to right,
+    #ff8008 0%,
+    #ffc837 51%,
+    #ff8008 100%
+  );
+
+  padding: 20px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 800;
+  display: block;
+  border: none;
+  border-radius: 10px;
+}
+
+.cart-button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #008037;
+  text-decoration: none;
+}
+
+.prod-desc-para {
+  color: #f6f576;
+  line-height: 1.3;
+  font-size: 19px;
+
+  font-weight: 600;
+}
+
+.prod-quantity {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  color: #f6f576;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.icon-quant {
+  font-size: 24px;
+  background-color: #008037;
+  color: #f6f576;
+  padding: 3px;
+}
+
+.prod-desc-price {
+  color: #f6f576;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1250px) {
+  .product-info {
+    max-width: 1000px;
+  }
+
+  .product-info-image {
+    max-width: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .product-info {
+    max-width: 800px;
+    flex-direction: column;
+  }
+
+  .product-info-img {
+    max-width: 450px;
+    max-height: 450px;
+    justify-self: center;
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .prod-desc-heading {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .product-info {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 650px) {
+  .product-info {
+    max-width: 350px;
+  }
+
+  .product-info-img {
+    margin-left: -40px;
+  }
+
+  .prod-desc-heading {
+    font-size: 30px;
+  }
+
+  .prod-desc-price {
+    font-size: 24px;
+  }
+}

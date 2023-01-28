@@ -1,0 +1,18 @@
+.success-section {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.success-heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #cfff8d;
+  transform: scale(1.05);
+  text-align: center;
+}
